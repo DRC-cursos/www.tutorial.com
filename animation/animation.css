@@ -1,0 +1,44 @@
+@-webkit-keyframes nomeAnimacao {
+    0% {
+        background-color: aqua;
+        /*width: 100%;*/
+        /*-webkit-transform: rotate(900deg);*/
+        /*position: absolute;*/
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        /*position: absolute;*/
+        top: 500px;
+        left: 0;
+    }
+
+    75% {
+        /*position: absolute;*/
+        top: 500px;
+        right: 500px;
+    }
+
+    100% {
+        background-color: crimson;
+        /*width: 100%;*/
+        /*-webkit-transform: rotate(-1800deg);*/
+        /*position: absolute;*/
+        top: 0;
+        right: 500px;
+    }
+}
+
+.anima {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+    background-color: tomato;
+
+    -webkit-animation: nomeAnimacao 2s;
+    -mos-animation: nomeAnimacao 2s;
+    -o-animation: nomeAnimacao 2s;
+    animation: nomeAnimacao 2s;
+}
