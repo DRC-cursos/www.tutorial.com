@@ -1,2 +1,25 @@
 .transition {
+    width: 300px;
+    height: 300px;
+    background-color: deepskyblue;
+
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 6s;
+    -moz-transition: width 2s, height 2s, background-color 2s, -moz-transform 6s;
+    -ms-transition: width 2s, height 2s, background-color 2s, -ms-transform 6s;
+    -o-transition: width 2s, height 2s, background-color 2s, -o-transform 6s;
+    transition: width 2s, height 2s, background-color 2s, transform 6s;
+
+
+}
+
+.transition:hover {
+    width: 600px;
+    height: 600px;
+    background-color: lightblue;
+
+    -webkit-transform: rotate(3600deg);
+    -moz-transform: rotate(3600deg);
+    -ms-transform: rotate(3600deg);
+    -o-transform: rotate(3600deg);
+    transform: rotate(3600deg);
 }
