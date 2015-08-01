@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/development.css"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 group group-1">Group 1</div>
+        <div class="col-sm-4 col-sm-push-1 group group-2">Group 2</div>
+        <div class="col-sm-4 group group-3">Group 3</div>
+    </div>
+
+    <div class="row">
+        <!--.col-sm-4.group.group-$@4{Group}*3-->
+        <div class="col-sm-4 group group-4">Group 4</div>
+        <div class="col-sm-4 col-sm-pull-1 group group-5">Group 5</div><!--O "col-sm-pull-1" so funciona na horizontal-->
+        <div class="col-sm-4 group group-6">Group 6</div>
+    </div>
+
+    <!--.row>.col-sm-4.group.group-$@7{Group $@7}*3-->
+    <div class="row">
+        <div class="col-sm-4 group group-7">Group 7</div>
+        <div class="col-sm-4 group col-md-offset-1 group-8">Group 8</div>
+        <div class="col-sm-3 group group-9">Group 9</div>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
