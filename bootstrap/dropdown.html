@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/development.css"/>
+</head>
+<body>
+
+<!--.container>.dropdown>(button.btn.btn-danger.dropdown-toggle[data-toggle=dropdown]{Dropdown}>span.caret)+ul.dropdown-menu>(li*3>a[href=#]{Sub-Item$})+(li.divider)+(li*3>a[href=#]{Sub-Item$@4})-->
+<div class="container">
+    <div class="dropdown">
+        <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Sub-Item1</a></li>
+            <li><a href="#">Sub-Item2</a></li>
+            <li><a href="#">Sub-Item3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Sub-Item4</a></li>
+            <li><a href="#">Sub-Item5</a></li>
+            <li><a href="#">Sub-Item6</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Sub-Item1</a></li>
+            <li><a href="#">Sub-Item2</a></li>
+            <li><a href="#">Sub-Item3</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header"><a href="#">Sub-Item4</a></li>
+            <li><a href="#">Sub-Item5</a></li>
+            <li><a href="#">Sub-Item6</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button class="btn btn-primary">Button1</button>
+        <button class="btn btn-primary">Button2</button>
+        <button class="btn btn-primary">Button3</button>
+
+        <div class="btn-group">
+            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Sub-Item1</a></li>
+                <li><a href="#">Sub-Item2</a></li>
+                <li><a href="#">Sub-Item3</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"><a href="#">Sub-Item4</a></li>
+                <li><a href="#">Sub-Item5</a></li>
+                <li><a href="#">Sub-Item6</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    /*(function(){
+
+        var dropdown = document.querySelectorAll('.dropdown-toggle');
+
+        for (var i = 0; i < dropdown.length; i++) {
+            dropdown[i].onmouseover = function(event){
+                event.target.parentNode.classList.add('open');
+            };
+
+            dropdown[i].onmouseout = function(event){
+                event.target.parentNode.classList.remove('open');
+            };
+        }
+
+    })();*/
+</script>
+</body>
+</html>
