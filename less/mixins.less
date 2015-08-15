@@ -1,0 +1,22 @@
+.gap(@margin; @padding: 5px) {// O valor do @padding é opcional. A ordem é: obrigatorios e depois opcional.
+  margin: @margin;
+  padding: @padding;
+}
+
+.layout(@text; @bgc) {
+  background-color: @bgc;
+  color: @text;
+}
+
+.item-1 {
+  .gap(10px);
+  .layout(#fff, #222);
+}
+.item-2{
+  .gap(20px, 30px);
+  .layout(#222, #fff);
+}
+.item-3 {
+  .gap(30px);
+  .layout(#fff, #222);
+}

@@ -17,3 +17,8 @@ https://github.com/JasonMortonNZ/bs3-sublime-plugin
 
 https://css-tricks.com/snippets/jquery/smooth-scrolling/
 http://globocom.github.io/bootstrap/scaffolding.html
+
+==gecko mozila video - reenderização dos elementos na tela
+ - https://www.youtube.com/watch?v=ZTnIxIA5KGw
+
+==

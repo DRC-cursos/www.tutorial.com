@@ -1,0 +1,26 @@
+@bgc-green: green;
+@bgc-red: red;
+@bgc-blue: blue;
+
+@height: 200px;
+@margin:20px;
+@padding:@margin * 2;
+@width: 200px - ( @margin + @padding);
+
+.item {
+  width: @width;
+  height: @height;
+  float: left;
+  margin: @margin;
+  padding: @padding;
+}
+.green {
+  background-color: @bgc-green;
+}
+.red {
+  background-color: @bgc-red;
+  //width: @width / 3;
+}
+.blue {
+  background-color: @bgc-blue;
+}

@@ -1,0 +1,12 @@
+@path: 'http://lorempixel.com';
+@size: '300';
+@category: 'cats';
+@url: '@{path}/@{size}/@{size}/@{category}';
+
+.item {
+  width: ~'@{size}px';
+  height: ~'@{size}px';
+  background: #ccc url(@url);
+}
+
+// ~ --> "evaluate", retira as aspas no processamento final no css.
