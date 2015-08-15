@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ScrollSpy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/development.css"/>
+    <style>
+        body {position: relative; font-size: 24px;}
+        #page1 {background-color: salmon; margin-top: 50px;}
+        #page2 {background-color: gold}
+        #page3 {background-color: skyblue}
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--(nav.navbar.navbar-inverse.navbar-fixed-top>(.navbar-header>button.navbar-toggle[data-toggle=collapse data-target=#myNavbar]>span.icon-bar*3)+.container-fluid>.collapse.navbar-collapse#myNavbar>ul.nav.navbar-nav>li*3>a[href=#page$]{Page-$})+(#page$>.container-fluid>h2{Page-$}+p*10>lorem)*3-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span
+                class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#page1">Page-1</a></li>
+                <li><a href="#page2">Page-2</a></li>
+                <li><a href="#page3">Page-3</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="page1">
+    <div class="container-fluid">
+        <h2>Page-1</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, assumenda atque delectus distinctio
+            dolore ea eos facere fugit in itaque labore laborum minus nihil porro, provident repellat rerum velit
+            veritatis!</p>
+
+        <p>Autem iure libero nemo tempora. Aliquam amet assumenda commodi consequuntur cumque deserunt eius eos et ex
+            fugit harum id inventore laudantium, magni officia placeat quaerat quos repellat reprehenderit, tempore
+            vel?</p>
+
+        <p>Accusamus commodi dicta doloremque excepturi impedit ipsum nihil, nobis nulla quis repellendus similique sunt
+            tempore veritatis vitae voluptas. Alias aliquam aut eligendi fuga incidunt ipsa nostrum perferendis qui quia
+            vitae?</p>
+
+        <p>Ad beatae et facere labore libero nihil omnis possimus suscipit vel voluptatibus! Amet aut modi molestiae
+            nihil sunt! Autem deserunt earum ex in itaque molestias odit sint totam voluptas voluptatum.</p>
+
+        <p>Ad aliquam, amet animi assumenda aut consectetur delectus dicta distinctio doloribus fugit illo incidunt
+            inventore iusto, magnam maxime quia quod quos reprehenderit saepe tenetur velit voluptas voluptates!
+            Perferendis, placeat, quis!</p>
+
+        <p>Ad architecto aut blanditiis commodi debitis distinctio dolores harum, ipsa iure labore non numquam pariatur
+            perferendis perspiciatis quae quaerat quibusdam quidem, quisquam quo ratione rerum totam velit voluptatibus!
+            Quasi, sequi.</p>
+
+        <p>Alias aspernatur cupiditate debitis distinctio dolorem ducimus eligendi, esse excepturi expedita fugiat iure
+            maiores minus, nobis nostrum nulla numquam quas quibusdam rem reprehenderit saepe sequi sit suscipit tempora
+            tenetur vero.</p>
+
+        <p>Atque consequatur doloribus eius eos exercitationem, facere facilis id in ipsa ipsam iste iusto laboriosam
+            laudantium libero nemo nisi numquam pariatur possimus qui quidem, repudiandae sapiente soluta tempora
+            voluptas, voluptatibus.</p>
+
+        <p>Accusantium animi necessitatibus nihil officia perspiciatis possimus quod similique tenetur voluptate.
+            Accusantium amet, animi aspernatur consectetur ex quas quos rerum. A dicta distinctio est hic illo incidunt
+            quaerat quia sunt.</p>
+
+        <p>Alias aut beatae cum eum fugiat magnam nemo nulla porro tempora veritatis. Consequuntur error esse labore
+            minima nostrum qui, quod? Accusantium aliquid aperiam blanditiis debitis dolores, maxime provident
+            repellendus voluptatibus.</p>
+    </div>
+</div>
+<div id="page2">
+    <div class="container-fluid">
+        <h2>Page-2</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur corporis culpa, debitis
+            dignissimos dolorem error eum fugiat id labore natus nisi nobis, officiis perspiciatis similique suscipit
+            veniam veritatis voluptates!</p>
+
+        <p>Earum laudantium maiores pariatur perspiciatis voluptates. Dolor magnam minima molestiae quia reiciendis sit
+            vero! Architecto delectus dolorem id libero tempora totam? Accusamus deleniti earum facere harum iste, minus
+            nam quos.</p>
+
+        <p>Ab accusantium aperiam asperiores corporis culpa dignissimos eos esse eum fugiat illo, inventore, iusto magni
+            nulla odit officiis, omnis qui quia ratione rem suscipit tempora tempore temporibus totam ut
+            voluptatibus!</p>
+
+        <p>Accusantium atque dolor, ea laudantium libero maxime mollitia nemo omnis porro tempore. Aliquam
+            exercitationem iure magni officia placeat quas sit vero vitae voluptate voluptatibus. Assumenda aut maiores
+            perspiciatis quidem sint.</p>
+
+        <p>Beatae enim, in libero nostrum similique ullam vel voluptas? Accusamus aliquam architecto autem commodi
+            corporis culpa dolor eligendi error eum expedita, incidunt nam nulla officia perspiciatis porro repellat
+            totam vero?</p>
+
+        <p>Animi blanditiis ducimus explicabo nam quasi. Beatae consequatur eaque, ipsa praesentium provident quibusdam
+            tempore ullam unde. Accusantium, adipisci debitis dicta dignissimos ea excepturi hic, illo officia, quas
+            quia saepe tempore?</p>
+
+        <p>Ad architecto ducimus hic molestiae nam nemo tempore veritatis voluptate. Architecto consectetur corporis,
+            dicta dignissimos dolore eaque fuga ipsa magni officiis optio perspiciatis, praesentium quia quod soluta
+            tempora ut voluptatem.</p>
+
+        <p>Alias aliquam aliquid asperiores cumque doloremque ducimus eaque ex iste iusto maiores molestiae natus nobis
+            nostrum provident quam qui quos, recusandae rem rerum saepe, veritatis voluptatem voluptates. Autem, omnis,
+            suscipit?</p>
+
+        <p>Deleniti eveniet iusto placeat quibusdam quidem. Blanditiis commodi consectetur debitis excepturi impedit
+            ipsa itaque laudantium minima mollitia nihil nulla perspiciatis provident quia, quisquam quod repellendus
+            sapiente similique ut veniam voluptas.</p>
+
+        <p>Assumenda, at aut corporis culpa cum cumque dicta distinctio dolore dolores doloribus ducimus est et, fugiat,
+            fugit id illo incidunt ipsum modi molestias natus obcaecati qui repudiandae sed voluptas voluptatem!</p>
+    </div>
+</div>
+<div id="page3">
+    <div class="container-fluid">
+        <h2>Page-3</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam, aspernatur consectetur
+            consequuntur, cumque delectus dolorum, earum eum expedita illum laborum molestias nam natus nesciunt nobis
+            numquam placeat praesentium sint.</p>
+
+        <p>Amet dignissimos doloribus eligendi eos ipsa libero modi mollitia, necessitatibus nisi quae quam quod, rem
+            veniam vitae voluptates. Adipisci aliquid aperiam aut autem esse excepturi harum illum ipsam tenetur
+            vero.</p>
+
+        <p>A animi aperiam architecto deleniti dolore eligendi eos harum illum iusto magnam modi, nesciunt, nisi nulla
+            quia quisquam quos reprehenderit rerum temporibus voluptas voluptatem? Animi eveniet harum officiis soluta!
+            Veniam?</p>
+
+        <p>Consequuntur culpa cupiditate earum, et quaerat quibusdam quod recusandae repellendus reprehenderit rerum
+            sequi, veniam veritatis. Aperiam atque commodi, cupiditate ea ex excepturi facere, nihil perferendis
+            repudiandae rerum sapiente voluptas voluptatibus.</p>
+
+        <p>Adipisci consequatur deserunt distinctio dolorem doloribus fugit inventore labore magnam, minus nam officiis,
+            quaerat quia quos repellat rerum? Accusamus eaque explicabo hic maiores mollitia nam saepe sapiente
+            temporibus velit voluptates!</p>
+
+        <p>A cumque enim fuga fugiat iusto laboriosam quasi repudiandae voluptatum. Alias autem, earum eveniet nesciunt
+            perferendis ratione sequi tenetur? Cum deleniti distinctio doloremque labore minima nihil odio quasi vero
+            voluptatem.</p>
+
+        <p>Consequatur eius eligendi harum optio porro quibusdam quisquam, soluta tempore! Adipisci asperiores autem
+            consequatur et illum. Aliquam architecto beatae est et fuga fugiat, in nulla pariatur quam quod, repellat
+            sapiente.</p>
+
+        <p>Alias aliquid autem culpa delectus, deleniti, dolores enim, inventore ipsa molestiae natus ratione repellat
+            saepe tempore. Accusamus aspernatur beatae cum error magnam molestiae mollitia, omnis quas quis repudiandae
+            vel velit.</p>
+
+        <p>Amet animi distinctio dolore est expedita incidunt molestiae, repudiandae rerum sequi sit vel voluptas. Alias
+            architecto atque blanditiis dolorum est molestiae officiis, porro possimus quisquam quod, similique soluta
+            suscipit tenetur.</p>
+
+        <p>Assumenda placeat quae recusandae rem tempora. Autem consequuntur corporis debitis dicta dolores est, qui
+            quis quos reiciendis temporibus. Consectetur cupiditate et explicabo illum quae, sequi suscipit tempora
+            tempore vel? Dignissimos!</p>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

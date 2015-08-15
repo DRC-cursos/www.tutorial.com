@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/development.css"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="container">
+        <!--<a href="#" data-toggle="popover" title="Header hahauahuahuh" data-content="Content auahuhauuah" data-trigger="focus">Toggle</a>-->
+        <a href="#" data-toggle="popover" title="Header hahauahuahuh" data-content="Content auahuhauuah" data-trigger="click">Toggle</a>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+</body>
+</html>
