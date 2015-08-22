@@ -1,0 +1,8 @@
+.get-selector(@index) when (@index > 0) {
+  .get-selector(@index - 1);
+  .item-@{index} {
+    background-image: url("http://lorempixel.com/200/200/nature/@{index}");
+  }
+}
+
+.get-selector(10);//10 é o @index de quantos itens são criados.

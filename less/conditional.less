@@ -1,0 +1,32 @@
+.page(@bg) when (@bg = black) {
+  background-color: @bg;
+  color: #fff;
+}
+.page(@bg) when (@bg = white) {
+  background-color: @bg;
+  color: #ccc;
+}
+.page(@bg) when (@bg = red), (@bg = blue) {
+  background-color: @bg;
+  color: #ffff00;
+}
+.page(@bg) when (default()){
+  background-color: @bg;
+  color: tomato;
+}
+.item-1 {
+  .page(black);
+}
+.item-2 {
+  .page(white);
+}
+.item-3 {
+  .page(red);
+}
+.item-4 {
+  .page(gold);
+}
+div[class*="item"]{
+  padding: 50px;
+  margin: 50px 0;
+}

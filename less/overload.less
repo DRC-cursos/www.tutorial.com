@@ -1,0 +1,16 @@
+.gap(@value){
+  margin: @value;
+  padding: @value / 2;
+}
+.gap(@margin; @padding){
+  margin: @margin;
+  padding: @padding;
+}
+.item-1 {
+  .gap(50px);
+  background-color: red;
+}
+.item-2 {
+  .gap(10px; 8px);
+  background-color: blue;
+}

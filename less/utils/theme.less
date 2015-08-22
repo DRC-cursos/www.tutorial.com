@@ -1,0 +1,16 @@
+@import "utils";
+
+@color: lightyellow;
+@bg: #222;
+
+/* Aqui começa o theme.less */
+
+div {
+  color: @color;
+}
+.rotate {
+  .get-prefix(transform; rotate(180deg));
+}
+.transition {
+  .get-prefix(transition; width 2s);
+}

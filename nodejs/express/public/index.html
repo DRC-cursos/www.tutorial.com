@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<h1>Home</h1>
+
+<script>
+    //ajax
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/service/cep/04346000', true);
+
+    xhr.onload = function(){
+        console.log(xhr.responseText);//responseText
+    };
+
+    xhr.onerror = function(error){
+        console.log(error);
+    };
+
+    xhr.send();
+</script>
+
+</body>
+</html>
